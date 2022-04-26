@@ -30,23 +30,23 @@
 .content {
   background-color: #ddd;
   padding: 10px;
-  height: 550px; 
+  height: 950px; 
   color:#00BFFF;
 }
 p1{
    font-size: 21px;
+
 }
 p2{
    font-size: 21px;
 }
 h1{
 font-size: 40px;
+
 }
-h3{
-font-size: 40px;
-}
+
 h4{
-font-size: 40px;
+font-size: 100px;
 text-align: center;
 color:#FF4500 ;
 }
@@ -55,7 +55,7 @@ color:#FF4500 ;
 .content2 {
   background-color: #ddd;
   padding: 10px;
-  height: 750px;
+  height: 1150px;
   color:#00BFFF;
 }
 h5{
@@ -118,16 +118,89 @@ h2{
 }
 .imgblock img{
 width: 600px;
-height:500px;
-flost:right;
- float: right;
+height:800px;
+float: right;
+
 
 }
 .mapblock{
 width: 600px;
-height:500px;
-flost:right;
+height:700px;
+
  float: right;
+} 
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px) {
+
+
+.topnav {
+	width: 80%;
+	margin-left: 0px;
 }
+.content {
+	width: 100%;
+}
+.content2 {
+	width: 100%;
+	margin-top: 0px;
+}
+.content3 {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	text-align: center;
+}
+}
+/* Small Tablets */
+@media (min-width: 321px)and (max-width: 767px) {
+.topnav {
+	width: 80%;
+	margin-left: 0px;
+}
+.content {
+	width: 100%;
+}
+.content2 {
+	width: 100%;
+	margin-top: 0px;
+}
+.content3 {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	text-align: center;
+}
+
+/* Small Desktops */
+@media (min-width: 768px) and (max-width: 1096px) {
+.topnav {
+	width: 80%;
+	margin-left: 0px;
+}
+.content {
+	width: 100%;
+}
+.content2 {
+	width: 100%;
+	margin-top: 0px;
+}
+.content3 {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	text-align: center;
+}
+}
+
+
 
 
