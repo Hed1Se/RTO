@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
 <link rel="icon"  href="W3 School.ico">
-<script src="3.js"></script>
+<script src="style2.js"></script>
 
 
 <style>
@@ -53,21 +53,17 @@ table, th, td {
 <br></br>
 <br></br>
 <br></br>
-<h8>Welcome to register our learning account</h8>
-<form action="/action_page.php">
-  <label for="first name">firstname:</label><br>
-  <input type="text" id="firstname"  value=""><br>
-  <label for="last name">last name:</label><br>
-  <input type="text" id="last name"  value=""><br><br>
- <label for="Telephone">Telephone:</label><br>
-  <input type="text" id="Telephone"  value=""><br><br>
- <label for="E-mail">E-mail:</label><br>
-  <input type="text" id="E-mail"  value=""><br><br>
-</form>
+<h8>Welcome to register our learning account</h8><br></br>
+<form name="myform" method="post"  action="mailto:username@hotmail.com" onsubmit="return validateform()" >  
+Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <input type="text" name="name"><br/>  
+Password: <input type="password" name="password"><br/>  
+Telephone: <input type="text" name="num"></br>
+e-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="text" name="mail"><br/>
+<input type="submit" value="register">  
+</form>  
 
-<p id="demo">Please be sure to fill in the correct information</p>
-<button type="button" onclick="handle()">Click</button>
-<br></br>
+
+
 <br></br>
 <p5>Our contact information</p5>
 <table>
