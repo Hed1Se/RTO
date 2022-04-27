@@ -30,7 +30,7 @@
 .content {
   background-color: #ddd;
   padding: 10px;
-  height: 950px; 
+  height: 70%; 
   color:#00BFFF;
 }
 p1{
@@ -55,7 +55,7 @@ color:#FF4500 ;
 .content2 {
   background-color: #ddd;
   padding: 10px;
-  height: 1150px;
+  height: 80%;
   color:#00BFFF;
 }
 h5{
@@ -91,7 +91,7 @@ text-align: center;
 .content3 {
   background-color: #ddd;
   padding: 10px;
-  height: 750px; 
+  height: 96%; 
   color:#00BFFF;
 }
 
@@ -99,9 +99,11 @@ text-align: center;
 /* Style the footer */
 .footer {
   background-color: #20B2AA;
-  padding: 10px;
+  padding: 1%;
 }	
-img{width: auto\9; width:100%;}
+.background1{
+width:100%;
+}
 
 .writer-img {
    -webkit-box-shadow: 1px 0px 1px 0px rgba(0, 0, 50, 0.97);
@@ -117,15 +119,13 @@ h2{
    float: right;
 }
 .imgblock img{
-width: 600px;
-height:800px;
+
 float: right;
 
 
 }
 .mapblock{
-width: 600px;
-height:700px;
+margin-top: 70px;
 
  float: right;
 } 
@@ -141,17 +141,16 @@ height:700px;
 
 @media (max-width: 320px) {
 
-
-.topnav {
-	width: 80%;
-	margin-left: 0px;
+.imgblock{
+width: 100%;
 }
+
 .content {
 	width: 100%;
 }
 .content2 {
 	width: 100%;
-	margin-top: 0px;
+	
 }
 .content3 {
 	padding-left: 10px;
