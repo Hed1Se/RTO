@@ -129,8 +129,48 @@ margin-top: 70px;
 
  float: right;
 } 
-
-
+.layout1{
+width:800px;
+height:220px;
+border:solid 1px green;
+background:#FFFACD;
+text-align: center;
+}
+.layout2{
+width:800px;
+height:200px;
+border:solid 1px green;
+background:#EEE8AA;
+text-align: center;
+}
+.layout3{
+width:800px;
+height:200px;
+border:solid 1px green;
+background:#F0E68C;
+text-align: center;
+}
+.layout4{
+width:800px;
+height:200px;
+border:solid 1px green;
+background:#FFD700;
+text-align: center;
+}
+.layout5{
+width:800px;
+height:200px;
+border:solid 1px green;
+background:#DAA520;
+text-align: center;
+}
+.layout6{
+width:800px;
+height:200px;
+border:solid 1px green;
+background:#B8860B;
+text-align: center;
+}
 
 
 
