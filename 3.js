@@ -1,21 +1,21 @@
-function handle(){
-    var x = document.getElementById("number1").value;
-    var y = document.getElementById("number2").value; 
-    var z =  Number(x) + Number(y)
-    if (isNaN(x)) {
-    z = "error"
+function validateform(){  
+var name=document.myform.name.value;  
+
+  
+if (name==null || name==""){  
+alert("identity can't be blank");  
+return false;  
+}  
+else if (name==1){
+alert("Please view the school information in the current interface");  
+return false;  
 }
-     else if (isNaN(y)) {
-     z = "error"
+else if (name==0){
+alert("Will jump to the course details interface");  
+  return true;  
 }
-     else {
-     z = Number(x) + Number(y);
+else {
+alert("Please enter the correct value");
+return false; 
 }
-
-
-
-
-
-
-    document.getElementById("demo").innerHTML = z;
 }
