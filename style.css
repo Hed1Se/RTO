@@ -55,8 +55,11 @@ color:#FF4500 ;
 .content2 {
   background-color: #ddd;
   padding: 10px;
-  height: 80%;
-  color:#00BFFF;
+  height: 80%；
+  left: 0;
+  right: 0;
+  width: 70%;
+  margin: auto;
 }
 h5{
 text-align: center;
@@ -98,6 +101,7 @@ text-align: center;
 
 /* Style the footer */
 .footer {
+	text-align: center;
   background-color: #20B2AA;
   padding: 1%;
 }	
@@ -118,16 +122,10 @@ h2{
    background-color: #ddd;
    float: right;
 }
-.imgblock img{
 
-float: right;
-
-
-}
 .mapblock{
 margin-top: 70px;
-
- float: right;
+	text-align: center;
 } 
 .layout1{
 width:800px;
